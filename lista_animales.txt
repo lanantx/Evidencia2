@@ -1,2 +1,2 @@
 liigabriel:elefante,león,avestruz
-MrRobis:Capybara,Leon,Cocodrilo
+MrRobis:Capybara,Leopardo,Cocodrilo
