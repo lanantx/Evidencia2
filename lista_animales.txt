@@ -1,3 +1,4 @@
 liigabriel:elefante,león,avestruz
 Robs115:Capybara,Leopardo,Cocodrilo
 DiegooRamirez: Camaleon, Tigre, Pinguino
+Pulido14:Jirafa, Ballena, Águila
