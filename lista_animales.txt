@@ -1,6 +1,7 @@
-liigabriel:elefante,león,avestruz
-Robs115:Capybara,Leopardo,Cocodrilo
+liigabriel: elefante,león,avestruz
+Robs115: Capybara,Leopardo,Cocodrilo
 DiegooRamirez: Camaleon, Tigre, Pinguino
-Pulido14:Jirafa, Ballena, Águila
+Pulido14: Jirafa, Ballena, Águila
 Walo-5: Halcón, Rinoceronte, Gallo
 surrealsys: Tortuga, Cerdo, Conejo
+dannyarreaga236: Cebra, Oso, Lemur
