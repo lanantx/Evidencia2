@@ -3,3 +3,4 @@ Robs115: Capybara,Leopardo,Cocodrilo
 surrealsys: Tortuga,cerdo,conejo
 DiegooRamirez: Camaleon, Tigre, Pinguino
 FranciscoHuertaK: Buitre, Pulpo, Turon
+dannyarreaga236: Cebra, Lemur, Oso
