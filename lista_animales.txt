@@ -1,3 +1,4 @@
 liigabriel: elefante,león,avestruz
 Robs115: Capybara,Leopardo,Cocodrilo
 surrealsys: Tortuga,cerdo,conejo
+FranciscoHuertaK: Buitre, Pulpo, Turon
