@@ -5,4 +5,4 @@ class Koi(Animal):
         super().__init__(nombre, "Koi")
 
     def hacer_sonido(self):
-        return "glugluglu"
+        return "glugluglu, soy omelo chino, omelo pelo chino"
