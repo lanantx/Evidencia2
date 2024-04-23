@@ -1,11 +1,11 @@
-from saulguglielmi import Koi
-from saulguglielmi import Panda_Rojo
-from saulguglielmi import Zorro
+from Koi import koi
+from Panda_Rojo import panda_rojo
+from Zorro import zorro
 print("Pez Koi Inserte 1\nPanda Rojo Inserte 2, Zorro Inserte 3")
 opcion=input("Que opcion buscas")
 if opcion =='1':
-    Koi()
+    koi()
 elif opcion =='2':
-    Panda_Rojo()
+    panda_rojo()
 elif opcion =='3':
-    Zorro()
+    zorro()
