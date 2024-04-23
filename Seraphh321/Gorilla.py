@@ -1,0 +1,2 @@
+class gorilla:
+    pass
