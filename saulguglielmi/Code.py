@@ -5,7 +5,7 @@ print("Pez Koi Inserte 1\nPanda Rojo Inserte 2, Zorro Inserte 3")
 opcion=input("Que opcion buscas")
 if opcion =='1':
     Koi()
-if opcion =='2':
+elif opcion =='2':
     Panda_Rojo()
-if opcion =='3':
+elif opcion =='3':
     Zorro()
