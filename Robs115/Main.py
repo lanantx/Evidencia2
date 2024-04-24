@@ -17,7 +17,7 @@ class ZOO:
 AdminZOO = ZOO()
 
 while True:
-    opcion = int(input(print("/////Bienvenido al ZOO///// \n 1.-Agregar Animal \n 2.- Ver Todos los Animales")))
+    opcion = int(input(print("/////Bienvenido al ZOO///// \n 1.-Agregar Animal \n 2.- Ver Todos los Animales\n")))
     if opcion == 1 :
         Animal = int(input("Que animal desea Agregar \n1.-Capybara\n2.-Leopardo\n3.-Cocodrilo "))
         if Animal == 1:
@@ -44,3 +44,5 @@ while True:
             ComidaFav = input("Cual es el Comida Favorita de su Cocodrilo")
             AnimalNuevo = Cocodrilo(Nombre,Peso,Edad,Tamaño,ComidaFav)
             AdminZOO.Agregar_Animales(AnimalNuevo)
+    elif opcion == 2:
+        print(AdminZOO.Mostrar_todos())
