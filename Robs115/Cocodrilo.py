@@ -55,3 +55,10 @@ class Cocodrilo:
     
     def Chapotear(self):
         print(f"*{self.__Nombre} Chapotea en el agua*")
+    
+    def info(self):
+        print(f"Nombre: {self.__Nombre}")
+        print(f"Peso: {self.__Peso}")
+        print(f"Edad: {self.__Edad}")
+        print(f"Tamaño {self.__Tamaño}")
+        print(f"Comida Favorita: {self.__ComidaFav}")
