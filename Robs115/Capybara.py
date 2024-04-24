@@ -5,7 +5,15 @@ class Capybara:
         self.__Edad = Edad
         self.__Tamaño = Tamaño
         self.__ComidaFav = ComidaFav
+        self.__Especie = "Capybara"
         
+    @property
+    def Especie(self):
+        return self.__Especie
+    @Especie.setter
+    def Especie(self,value):
+        self.__Especie = value
+
     @property
     def ComidaFav (self):
         return self.__ComidaFav
@@ -63,4 +71,5 @@ class Capybara:
         print(f"Edad: {self.__Edad}")
         print(f"Tamaño {self.__Tamaño}")
         print(f"Comida Favorita: {self.__ComidaFav}")
+        print(f"Especie{self.__Especie}")
     
