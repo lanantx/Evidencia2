@@ -1,0 +1,2 @@
+class Nutria:
+    pass
