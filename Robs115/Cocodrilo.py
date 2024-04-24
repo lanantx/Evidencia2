@@ -32,7 +32,7 @@ class Cocodrilo:
     def Edad (self):
         return self.__Edad
     @Edad.getter
-    def ComidaFav (self,Value):
+    def Edad (self,Value):
         Value = self.__Edad
     
     @property
@@ -46,7 +46,7 @@ class Cocodrilo:
     def Tamaño (self):
         return self.__Tamaño
     @Tamaño.getter
-    def ComidaFav (self,Value):
+    def Tamaño (self,Value):
         Value = self.__Tamaño
 
     def Comer(self):
