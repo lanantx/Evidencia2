@@ -36,3 +36,4 @@ class hipopotamo:
     @peso.setter
     def peso(self,valor):
         self.__peso = valor
+        
