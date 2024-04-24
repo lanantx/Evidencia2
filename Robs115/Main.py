@@ -17,4 +17,30 @@ class ZOO:
 AdminZOO = ZOO()
 
 while True:
-    print("/////Bienvenido al ZOO///// \n 1.-Agregar Animal \n 2.- Ver Todos los Animales")
+    opcion = int(input(print("/////Bienvenido al ZOO///// \n 1.-Agregar Animal \n 2.- Ver Todos los Animales")))
+    if opcion == 1 :
+        Animal = int(input("Que animal desea Agregar \n1.-Capybara\n2.-Leopardo\n3.-Cocodrilo "))
+        if Animal == 1:
+            Nombre = input("Cual es el nombre de su Capybara")
+            Peso = input("Cual es el Peso de su Capybara")
+            Edad = input("Cual es el Edad de su Capybara")
+            Tamaño = input("Cual es el Tamaño de su Capybara")
+            ComidaFav = input("Cual es el Comida Favorita de su Capybara")
+            AnimalNuevo = Capybara(Nombre,Peso,Edad,Tamaño,ComidaFav)
+            AdminZOO.Agregar_Animales(AnimalNuevo)
+        elif Animal == 2:
+            Nombre = input("Cual es el nombre de su Leopardo")
+            Peso = input("Cual es el Peso de su Leopardo")
+            Edad = input("Cual es el Edad de su Leopardo")
+            Tamaño = input("Cual es el Tamaño de su Leopardo")
+            ComidaFav = input("Cual es el Comida Favorita de su Leopardo")
+            AnimalNuevo = Leopardo(Nombre,Peso,Edad,Tamaño,ComidaFav)
+            AdminZOO.Agregar_Animales(AnimalNuevo)
+        elif Animal == 3:
+            Nombre = input("Cual es el nombre de su Cocodrilo")
+            Peso = input("Cual es el Peso de su Cocodrilo")
+            Edad = input("Cual es el Edad de su Cocodrilo")
+            Tamaño = input("Cual es el Tamaño de su Cocodrilo")
+            ComidaFav = input("Cual es el Comida Favorita de su Cocodrilo")
+            AnimalNuevo = Cocodrilo(Nombre,Peso,Edad,Tamaño,ComidaFav)
+            AdminZOO.Agregar_Animales(AnimalNuevo)
