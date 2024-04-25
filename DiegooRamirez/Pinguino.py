@@ -1,5 +1,5 @@
 class Pinguino:
-    def __init__(self, Nombre, Edad, Peso, Tamaño, Vuela_novuela) -> None:
+    def __init__(self, Nombre, Edad, Peso, Tamaño, Vuela_novuela):
         self.__Nombre=Nombre
         self.__Edad=Edad
         self.__Peso=Peso
