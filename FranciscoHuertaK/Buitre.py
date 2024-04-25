@@ -61,4 +61,7 @@ class Buitre:
     def peso(self,value):
         self.__peso = value
 
+    def __str__(self):
+        return f"Informacion del Buitre: Nombre:{self.nombre}, Edad:{self.edad}, Sexo:{self.sexo}, Altura:{self.altura}, Peso:{self.peso}."
+
         
