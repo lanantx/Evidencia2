@@ -45,13 +45,13 @@ class Camaleon:
     @property
     def tamaño(self):
         return self.__Tamaño
-    @peso.setter
-    def peso(self,valor):
+    @tamaño.setter
+    def tamaño(self,valor):
         self.__Tamaño=valor
 
     @property
     def color(self):
         return self.__Color
-    @peso.setter
-    def peso(self,valor):
+    @color.setter
+    def color(self,valor):
         self.__Color=valor
