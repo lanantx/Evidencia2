@@ -7,7 +7,7 @@ class Camaleon:
         self.__Color=Color
 
     def comer(self):
-        print("La lengua de los camaleones pueden llegar a medir el doble que su cuerpo, siendo capaces de capturar a una presa en menos de un segundo.")
+        print("La lengua de los camaleones pueden llegar a medir el doble que su cuerpo, siendo capaces de capturar a una presa en menos de un segundo, por lo general comen insectos")
     
     def observar(self):
         print("Los ojos de los camaleones giran de manera independiente en un ángulo de 180 grados, lo que les permite aumentar su campo de visión hasta en 360 grados")
