@@ -1,10 +1,25 @@
 class Tigre:
-    def __init__(self, Nombre, Edad, Peso, Tamaño, Sonido):
+    def __init__(self, Nombre, Edad, Peso, Tamaño, Sexo):
         self.__Nombre=Nombre
         self.__Edad=Edad
         self.__Peso=Peso
         self.__Tamaño=Tamaño
-        self.__Sonido=Sonido
+        self.__Sexo=Sexo
+    
+    def correr(self):
+        print("Los tigres pueden alcanzar velocidades de hasta 90km/h, superando a los leopardos")
+
+    def saltar(sefl):
+        print("El tigre es uno de los felinos que mas alto salta pues pueden alcanzar hasta los 5 metros de altura")
+
+    def bañarse(self):
+        print("A los tigres les encanta el contacto con el agua y son excelentes nadadores")
+
+    def peso(self):
+        print(f"Es el felino mas grande del mundo y puede alcanzar un peso de 306 Kg, nuestro tigre pesa: {self.__Peso}")
+    
+    def rugir(self):
+        print("El tigre ruge: !!!!GR-GR-GR-GR¡¡¡¡")
 
     @property
     def nombre(self):
@@ -35,8 +50,8 @@ class Tigre:
         self.__Tamaño=valor
 
     @property
-    def sonido(self):
-        return self.__Sonido
-    @sonido.setter
+    def sexo(self):
+        return self._Sexo
+    @sexo.setter
     def sonido(self,valor):
-        self.__Sonido=valor
+        self._Sexo=valor
