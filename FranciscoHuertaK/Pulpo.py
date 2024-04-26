@@ -60,3 +60,6 @@ class Pulpo:
     @peso.setter
     def peso(self,value):
         self.__peso = value
+
+    def __str__(self):
+     return f"Informacion del Pulpo: Nombre:{self.nombre}, Edad:{self.edad}, Sexo:{self.sexo}, Largo:{self.largo}, Peso:{self.peso}."

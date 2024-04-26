@@ -22,6 +22,11 @@ class Cerdo:
     
     def defecar(self): # Agregar como requerimiento haber comido y que comio idk
         return f"{self.nombre} esta defecando" 
-        
+
+
+
+
+
+
 
 
