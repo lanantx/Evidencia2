@@ -15,7 +15,7 @@ class Cerdo:
         return f"{self.nombre} está durmiendo zZzZz."
 
     def hacer_sonido(self):
-        return f"{self.nombre} dice: {self.sonido}"
+            return f"{self.nombre} dice: {self.sonido}"
     
     def reproducirse(self): #Agregar mas cosas para que esto pueda realizarse
         return f"{self.nombre} esta reproduciendose con el sexo opuesto"
