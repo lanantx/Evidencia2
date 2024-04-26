@@ -1,9 +1,10 @@
 class Tigre:
-    def __init__(self, Nombre, Edad, Peso, Tamaño):
+    def __init__(self, Nombre, Edad, Peso, Tamaño, Sonido):
         self.__Nombre=Nombre
         self.__Edad=Edad
         self.__Peso=Peso
         self.__Tamaño=Tamaño
+        self.__Sonido=Sonido
 
     @property
     def nombre(self):
@@ -32,3 +33,10 @@ class Tigre:
     @tamaño.setter
     def tamaño(self,valor):
         self.__Tamaño=valor
+
+    @property
+    def sonido(self):
+        return self.__Sonido
+    @sonido.setter
+    def sonido(self,valor):
+        self.__Sonido=valor
