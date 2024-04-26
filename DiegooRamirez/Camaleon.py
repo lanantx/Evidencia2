@@ -6,6 +6,9 @@ class Camaleon:
         self.__Tamaño=Tamaño
         self.__Color=Color
 
+    def __str__(self):
+        return f"Camaleon: {self.__Nombre}, Edad: {self.__Edad}, Peso: {self.__Peso} kg, Tamaño: {self.__Tamaño} cm, Color: {self.__Color}\n"
+
     def comer(self):
         print("La lengua de los camaleones pueden llegar a medir el doble que su cuerpo, siendo capaces de capturar a una presa en menos de un segundo, por lo general comen insectos")
     

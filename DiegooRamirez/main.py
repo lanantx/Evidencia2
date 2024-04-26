@@ -25,7 +25,7 @@ while True:
             peso=input("Ingrese el peso en kg del Camaleon: ")
             tamaño=input("Ingrese el tamaño del Camaleon en cm: ")
             color=input("Ingrese el color del Camaleon: ")
-            nuevoCamaleon=Camaleon(nombre,edad,peso,tamaño,color)
+            nuevoCamaleon=Camaleon.Camaleon(nombre,edad,peso,tamaño,color)
             adzoo.agregarAnimal(nuevoCamaleon)
         elif opAnimal==2:
             nombre=input("Ingrese el nombre del Pinguino: ")
@@ -33,17 +33,20 @@ while True:
             peso=input("Ingrese el peso en kg del Pinguino: ")
             tamaño=input("Ingrese el tamaño del Pinguino en cm: ")
             vuela_novuela=input("Su pinguino vuela o no vuela: ")
-            nuevoPinguino=Pinguino(nombre,edad,peso,tamaño,vuela_novuela)
+            respuesta=vuela_novuela.lower()
+            nuevoPinguino=Pinguino.Pinguino(nombre,edad,peso,tamaño,respuesta)
             adzoo.agregarAnimal(nuevoPinguino)
         elif opAnimal==3:
-            nombre=input("Ingrese el nombre del Pinguino: ")
-            edad=input("Ingrese la edad del Pinguino: ")
-            peso=input("Ingrese el peso en kg del Pinguino: ")
-            tamaño=input("Ingrese el tamaño del Pinguino en cm: ")
+            nombre=input("Ingrese el nombre del Tigre: ")
+            edad=input("Ingrese la edad del Tigre: ")
+            peso=input("Ingrese el peso en kg del Tigre: ")
+            tamaño=input("Ingrese el tamaño del Tigre en cm: ")
             sexo=input("Ingrese el sexo del Tigre: ")
-            nuevoTigre=Pinguino(nombre,edad,peso,tamaño,sexo)
+            nuevoTigre=Tigre.Tigre(nombre,edad,peso,tamaño,sexo)
             adzoo.agregarAnimal(nuevoTigre)
+    
     elif op==2:
         adzoo.mostrarAnimales()
+    
     elif op==3:
         break

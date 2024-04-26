@@ -6,6 +6,9 @@ class Pinguino:
         self.__Tamaño=Tamaño
         self.__Vuela_novuela=Vuela_novuela
 
+    def __str__(self):
+        return f"Pinguino: {self.__Nombre}, Edad: {self.__Edad}, Peso: {self.__Peso} kg, Tamaño: {self.__Tamaño} cm, Vuela: {self.__Vuela_novuela}\n"
+
     def vuelaNovuela(self):
         if self.__Vuela_novuela=="si":
             print("Lamento decirte que los pinguinos no vuelan, lo que tu observaste probablemente es un Frailecillo")
