@@ -9,10 +9,10 @@ class AdminZoo:
     def agregarAnimal(self,nuevoAnimal):
         self.misanimales.append(nuevoAnimal)
     
-    def info(self):
+    def mostrarAnimales(self):
         for animales in self.misanimales:
             print(animales)
-            
+
 adzoo=AdminZoo()
 
 while True:
@@ -44,6 +44,6 @@ while True:
             nuevoTigre=Pinguino(nombre,edad,peso,tamaño,sexo)
             adzoo.agregarAnimal(nuevoTigre)
     elif op==2:
-        pass
+        adzoo.mostrarAnimales()
     elif op==3:
         break
