@@ -1,27 +1,27 @@
 class Cerdo:
-   def __init__(self, nombre, edad, sexo, peso, sonido):
-        self.nombre = nombre
-        self.edad = edad
-        self.sexo = sexo
-        self.peso = peso
-        self.sonido = sonido
+    def __init__(self, nombre, edad, sexo, peso, sonido):
+        self._nombre = nombre
+        self._edad = edad
+        self._sexo = sexo
+        self._peso = peso
+        self._sonido = sonido
 
     # atributos: comer, Dormir, hacer_sonido, defecar
 
     def comer(self,comida):
-        return f"{self.nombre} está comiendo {comida}."
+        return f"{self._nombre} está comiendo {comida}."
 
     def dormir(self):
-        return f"{self.nombre} está durmiendo zZzZz."
+        return f"{self._nombre} está durmiendo zZzZz."
 
     def hacer_sonido(self):
-            return f"{self.nombre} dice: {self.sonido}"
+            return f"{self._nombre} dice: {self._sonido}"
     
     def reproducirse(self): #Agregar mas cosas para que esto pueda realizarse
-        return f"{self.nombre} esta reproduciendose con el sexo opuesto"
+        return f"{self._nombre} esta reproduciendose con el sexo opuesto"
     
     def defecar(self): # Agregar como requerimiento haber comido y que comio idk
-        return f"{self.nombre} esta defecando" 
+        return f"{self._nombre} esta defecando" 
 
 ## Getters & Setters (nombre,edad,sexo,peso,sonido)
 
@@ -69,22 +69,6 @@ class Cerdo:
 
     def __str__(self):
         return f"Nombre: {self._nombre}, Edad: {self._edad}, Sexo: {self._sexo}, Peso: {self._peso}kg, Sonido: {self._sonido}"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
