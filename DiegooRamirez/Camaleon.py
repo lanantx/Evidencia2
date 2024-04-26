@@ -13,7 +13,7 @@ class Camaleon:
         print("Los ojos de los camaleones giran de manera independiente en un ángulo de 180 grados, lo que les permite aumentar su campo de visión hasta en 360 grados")
     
     def longitud(self):
-        print(f"Los camañeones mas pequeños llegan a medir 26 milimetro y los mas grande 70 centimetros, en este caso el camaleon mide: {self.__Tamaño}")
+        print(f"Los camañeones mas pequeños llegan a medir 26 milimetro y los mas grande 70 centimetros, en este caso el camaleon mide: {self.__Tamaño} cm")
 
     def color(self):
         print(f"Los camaleones usan un fibras de melanina para cambiar de color, ahora el color es: {self.__Color}")

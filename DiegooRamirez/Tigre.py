@@ -16,7 +16,7 @@ class Tigre:
         print("A los tigres les encanta el contacto con el agua y son excelentes nadadores")
 
     def peso(self):
-        print(f"Es el felino mas grande del mundo y puede alcanzar un peso de 306 Kg, nuestro tigre pesa: {self.__Peso}")
+        print(f"Es el felino mas grande del mundo y puede alcanzar un peso de 306 Kg, nuestro tigre pesa: {self.__Peso} kg")
     
     def rugir(self):
         print("El tigre ruge: !!!!GR-GR-GR-GR¡¡¡¡")
