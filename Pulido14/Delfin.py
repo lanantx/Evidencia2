@@ -61,5 +61,4 @@ class Delfin:
    def socializar(self):
         print(f"{self._nombre} está jugando con otros delfines.")
 
-   def dormir(self):
-        print(f"{self._nombre} está descansando en el agua.")
+   

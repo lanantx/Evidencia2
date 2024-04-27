@@ -45,3 +45,18 @@ class Ballena:
    @especie.setter
    def especie(self, nueva_especie):
        self._epecie = nueva_especie
+
+   def nadar(self):
+        print(f"{self._nombre} está nadando.")
+
+   def alimentarse(self):
+        print(f"{self._nombre} está alimentándose de plancton.")
+
+   def emitir_sonido(self):
+        print(f"{self._nombre} está emitiendo sonidos de baja frecuencia.")
+
+   def socializar(self):
+        print(f"{self._nombre} está interactuando con otras ballenas.")
+
+   def dormir(self):
+        print(f"{self._nombre} está durmiendo en el océano.")
