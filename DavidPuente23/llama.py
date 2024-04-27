@@ -1,8 +1,10 @@
 class llama:
-    def __init__(self,nombre,edad,peso):
+    def __init__(self, nombre,edad,peso,color,sexo):
         self.nombre = nombre
         self.edad = edad
         self.peso = peso
+        self.color = color
+        self.sexo = sexo
 
     def sonido(self):
         print("TE ESCUPE")
@@ -31,5 +33,19 @@ class llama:
     def peso(self,valor):
         self.__peso=valor
 
+    @property
+    def color(self):
+        return self.__color
+    @peso.setter
+    def color(self,valor):
+        self.__color=valor
+
+    @property
+    def sexo(self):
+        return self.__sexo
+    @peso.setter
+    def sexo(self,valor):
+        self.__sexo=valor
+
     def __str__(self):
-        return f"Llama: \n Nombre: {self.__nombre}\n Edad: {self.edad}\n Peso: {self.peso}"
+        return f"Llama: \n Nombre: {self.__nombre}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Color: {self.__color}\n Sexo: {self.__sexo}"
