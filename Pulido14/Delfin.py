@@ -45,3 +45,21 @@ class Delfin:
    @especie.setter
    def especie(self, nueva_especie):
        self._epecie = nueva_especie
+
+   def comer(self):
+        print(f"{self._nombre} está comiendo pescado fresco.")
+
+   def nadar(self):
+        print(f"{self._nombre} está nadando en el océano.")
+
+   def alimentarse(self):
+        print(f"{self._nombre} está alimentándose de peces pequeños.")
+
+   def emitir_sonido(self):
+        print(f"{self._nombre} está emitiendo sonidos de clics y silbidos.")
+
+   def socializar(self):
+        print(f"{self._nombre} está jugando con otros delfines.")
+
+   def dormir(self):
+        print(f"{self._nombre} está descansando en el agua.")
