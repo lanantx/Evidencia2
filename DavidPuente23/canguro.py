@@ -57,6 +57,6 @@ class canguro:
         self.__sexo=valor
 
     def __str__(self):
-        return f"Pato: \n Nombre: {self.__nombre}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Color: {self.__color}\n Sexo: {self.__sexo}"
+        return f"Canguro: \n Nombre: {self.__nombre}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Color: {self.__color}\n Sexo: {self.__sexo}"
 
     
