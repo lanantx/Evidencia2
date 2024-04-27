@@ -12,6 +12,15 @@ class llama:
     def intelectual(self):
         print(f"{self.__nombre}, es demasiado inteligente al igual que todos los de su especie")
 
+    def velocidad(self):
+        print(f"{self.__nombre}, puede correr hasta 40 millas por hora eso les ayuda a escapar de sus presas")
+
+    def tamaño(self):
+        print("Si es hembra de estatura sera mas pequeña ya que los machos son mas altos")
+
+    def piel(self):
+        print("Su piel gruesa ayuda a que se mantengan calientes y tambien les ayuda a protegerser de las mordeduras de otros animales")
+
     @property
     def nombre(self):
         return self.__nombre
