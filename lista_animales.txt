@@ -10,3 +10,4 @@ brissaflorest: mono, koala, hipopotamo
 Estrellahdz: Cotorro, Aguila, Caballo
 Alexaduranc: Tucan, Garza, Puma
 VanessaNohely: Pingüino, coyote, burro
+Pulido: Ballena, Serpiente, Delfin
