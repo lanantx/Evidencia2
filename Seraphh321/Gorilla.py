@@ -15,8 +15,47 @@ class gorilla:
       def comportamiento(self):
             print(f"{self.__nombre} no es agresivo, usalmente se mantiene sereno pero se llega a estresar cuando hay demasiada gente hablando")
 
-      def masa_muscular(self)
+      def masa_muscular(self):
             print(f"{self.__nombre} esta lleno de musculos por lo tanto tiene demasiada fuerza")
             
-      def recinto(self) 
+      def recinto(self): 
             print("al tener tanta fuerza, su recinto es un poco... especial")
+
+
+
+      @property
+      def nombre(self):
+            return self.__nombre
+      @nombre.setter
+      def nombre(self,valor):
+            self.__nombre = valor
+
+      @property 
+      def edad(self):
+           return self.__edad
+      @edad.setter
+      def edad(self,valor):
+            self.__edad = valor
+
+      @property
+      def peso(self)
+            return self.__peso
+      @peso.setter
+      def peso(self,valor):
+            self.__peso = valor
+
+      @property 
+      def sexo(self):
+            return self.__sexo
+      @sexo.setter
+      def sexo(self,valor):
+            self.__sexo = valor
+            
+      @property 
+      def tamaño(self):
+            return self.__tamaño
+      @tamaño.setter
+      def tamaño(self,valor):
+            self.__tamaño=valor
+      
+
