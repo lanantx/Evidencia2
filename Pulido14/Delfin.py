@@ -1,5 +1,5 @@
 class Delfin:
-    def __init__(self, nombre, edad, longitud, peso, especie):
+   def __init__(self, nombre, edad, longitud, peso, especie):
         self._nombre = nombre
         self._edad = edad
         self._longitud = longitud
