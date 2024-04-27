@@ -6,6 +6,9 @@ class Camaleon:
         self.__Tamaño=Tamaño
         self.__Color=Color
 
+    def __str__(self):
+        return f"Camaleon: {self.__Nombre}, Edad: {self.__Edad}, Peso: {self.__Peso} kg, Tamaño: {self.__Tamaño} cm, Color: {self.__Color}\n"
+
     def comer(self):
         print("La lengua de los camaleones pueden llegar a medir el doble que su cuerpo, siendo capaces de capturar a una presa en menos de un segundo, por lo general comen insectos")
     
@@ -13,7 +16,7 @@ class Camaleon:
         print("Los ojos de los camaleones giran de manera independiente en un ángulo de 180 grados, lo que les permite aumentar su campo de visión hasta en 360 grados")
     
     def longitud(self):
-        print(f"Los camañeones mas pequeños llegan a medir 26 milimetro y los mas grande 70 centimetros, en este caso el camaleon mide: {self.__Tamaño}")
+        print(f"Los camañeones mas pequeños llegan a medir 26 milimetro y los mas grande 70 centimetros, en este caso el camaleon mide: {self.__Tamaño} cm")
 
     def color(self):
         print(f"Los camaleones usan un fibras de melanina para cambiar de color, ahora el color es: {self.__Color}")
