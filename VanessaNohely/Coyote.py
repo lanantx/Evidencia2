@@ -45,3 +45,21 @@ class Coyote:
     @altura.setter
     def altura(self, value):
         self.__altura = value
+
+    def alimentar(self):
+        print(f"Se está alimentando a {self.__nombre}.")
+
+    def limpieza(self):
+        print(f"Se está bañando a {self.__nombre}.")
+
+    def pesar(self):
+        print(f"Se pesó a {self.nombre}, y su peso es de {self.__peso}.")
+
+    def cambio_zona(self):
+        print(f"Se cambió de sector a {self.__nombre} en el zoológico.")
+
+    def medicamento(self):
+        print(f"Se está administrando medicina a {self.__nombre}.")
+
+    def __str__(self):
+        return f"Coyote | Nombre: {self.__nombre} | Sexo: {self.__sexo} | Edad: {self.__edad} | Peso: {self.__peso} | Altura: {self.__altura}."
