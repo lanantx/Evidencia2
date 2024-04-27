@@ -7,7 +7,7 @@ class gorilla:
           self.tamaño = tamaño
             
       def comida(self):
-            print(f"{self.__nombre}, puede comer hasta 30kg de plantas ya que es muy grande}")
+            print(f"{self.__nombre}, puede comer hasta 30kg de plantas ya que es muy grande")
       
       def horario(self):
             print(f"{self.__nombre} se mantiene despierto y activo durante las mañanas y empieza a descansar en los atardeceres")
@@ -58,6 +58,6 @@ class gorilla:
       def tamaño(self,valor):
             self.__tamaño=valor
             
-def __str__(self):
-    return f"Gorilla:  1 Nombre: {self.__nombre} 2 Edad: {self.__edad} 3 Peso: {self.__peso} 4 Tamaño: {self.__tamaño} 5 Sexo: {self.__sexo}"
+      def __str__(self):
+          return f"Gorilla:  1 Nombre: {self.__nombre} 2 Edad: {self.__edad} 3 Peso: {self.__peso} 4 Tamaño: {self.__tamaño} 5 Sexo: {self.__sexo}"
 
