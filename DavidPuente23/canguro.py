@@ -31,4 +31,7 @@ class canguro:
     def peso(self,valor):
         self.__peso=valor
 
+    def __str__(self):
+        return f"Canguro: \n Nombre: {self.__nombre}\n Edad: {self.edad}\n Peso: {self.peso}"
+
     
