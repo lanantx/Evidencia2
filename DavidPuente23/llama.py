@@ -30,3 +30,6 @@ class llama:
     @peso.setter
     def peso(self,valor):
         self.__peso=valor
+
+    def __str__(self):
+        return f"Llama: \n Nombre: {self.__nombre}\n Edad: {self.edad}\n Peso: {self.peso}"
