@@ -22,6 +22,8 @@ class Cebra:
     
     @edad.setter
     def edad(self, value):
+        if value < 0:
+            return "La edad NO puede ser negativo"
         self.__edad = value
     
     @property
