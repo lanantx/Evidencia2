@@ -51,3 +51,6 @@ while True:
             nutriaN=Nutria(nombre,edad,peso,sexo,tamaño)
             adminzoo.AñadirAnimal(nutriaN)
             print("Animal agregado exitosamente!")
+
+    elif opcion == 2:
+        adminzoo.verAnimales()
