@@ -47,8 +47,11 @@ while True:
             print(f"Opción {opc2} no válida.\n")
 
     elif opc == "2":
-        pass
-
+        for animal, objetos in animales.items():
+            print(f"{animal}s:")
+            for objeto in objetos:
+                print(f"- {objeto}")
+                
     elif opc == "3":
         break
     
