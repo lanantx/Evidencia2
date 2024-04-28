@@ -5,5 +5,6 @@ class gorilla:
           self.peso = peso
           self.sexo = sexo
           self.tamaño = tamaño
+
             
       
