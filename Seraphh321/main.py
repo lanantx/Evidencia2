@@ -53,12 +53,9 @@ while True:
             print("Animal agregado exitosamente!")
 
         
-
     elif opcion == 2:
         adminzoo.verAnimales()
         
-    elif opcion == 4:
-        pass
-        
+
     elif opcion == 4:
         break
