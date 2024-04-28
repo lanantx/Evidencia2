@@ -13,7 +13,7 @@ class mini_zoo:
     def mostrar_lista(self):
         print("Lista de animales en el mini-zoo:")
         for animal in self.animales:
-            print(animal.nombre)  # Mostrar solo el nombre del animal
+            print(animal.nombre)  
 
 if __name__ == "__main__":
     zoo = mini_zoo()
