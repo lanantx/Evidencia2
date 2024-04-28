@@ -17,7 +17,7 @@ class zoo:
 adminzoo=zoo()
 
 while True:
-    opcion = int(input("1. Agregar animal  2. Ver los animales  3. Salir  "))
+    opcion = int(input("1. Agregar animal  2. Ver los animales 3.Info animal 4. Salir  "))
     if opcion == 1:
         animal = int(input("Animal por agregar:  1. Gorilla  2. Jirafa  3. Nutria " ))
         if animal == 1:
@@ -52,10 +52,13 @@ while True:
             adminzoo.AñadirAnimal(nutriaN)
             print("Animal agregado exitosamente!")
 
-    
+        
 
     elif opcion == 2:
         adminzoo.verAnimales()
-
-    elif opcion == 3:
+        
+    elif opcion == 4:
+        pass
+        
+    elif opcion == 4:
         break
