@@ -40,7 +40,7 @@ class Ballena:
 #aqui uso nueva_especie por que hay mas de una especia de ballenas
    @property
    def especie(self):
-       return self._especies
+       return self._especie
 
    @especie.setter
    def especie(self, nueva_especie):
