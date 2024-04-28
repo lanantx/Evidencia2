@@ -46,6 +46,5 @@ class Aguila:
         def altura(self, value):
             self.__altura = altura
 
-    
     def __str__(self):
         return (f"Aguila: \n Nombre: {self.__nombre}\n Sexo: {self.__sexo}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Altura: {self.__altura}")
