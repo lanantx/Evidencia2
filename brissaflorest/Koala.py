@@ -45,3 +45,21 @@ class Koala:
     @altura.setter
     def altura(self,valor):
         self.__altura = valor
+
+    def __str__(self):
+        return f"Koala | Nombre: {self.__nombre} | Edad: {self.__edad} | Tamaño: {self.__tamaño} | Peso: {self.__peso} | Altura: {self.__altura}."
+
+    def comer(self):
+        print("Los koalas se alimentan de las hojas de eucalipto, no beben mucha agua, por lo que su hidratación proviene de las mismas hojas.")
+
+    def aspecto(self):
+        print("Los koalas se caracterizan por tener un cuerpo robusto y sin cola, con una cabeza considerablemente grande y con orejas peludas.")
+    
+    def olfato(self):
+        print("Los koalas tienen como distintiva su nariz y esta les permite percibir y evaluar el peculiar alimento que consumen.")
+
+    def significado(self):
+        print("La palabra koala proviene del dharug, la lengua indígena de la zona de Sídney, y significa -no bebe-.")
+
+    def dormir(self):
+        print("Los koalas pueden dormir hasta 18 horas al día, sujetos en las ramas y rincones de los árboles.")
