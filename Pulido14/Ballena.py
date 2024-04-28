@@ -12,39 +12,39 @@ class Ballena:
 
    @nombre.setter
    def nombre(self, Value):
-       Value = self._nombre
+       self._nombre = Value
 
    @property
    def edad(self):
        return self._edad
 
    @edad.setter
-   def edad(self, nueva_edad):
-       self._edad = nueva_edad
+   def edad(self, Value):
+       self._edad = Value
 
    @property
    def longitud(self):
        return self._longitud
 
    @longitud.setter
-   def longitud(self, nueva_longitud):
-       self._longitud = nueva_longitud
+   def longitud(self, Value):
+       self._longitud = Value
 
    @property
    def peso(self):
        return self._peso
 
    @peso.setter
-   def peso(self, nuevo_peso):
-       self._peso = nuevo_peso
+   def peso(self, Value):
+       self._peso = Value
 #aqui uso nueva_especie por que hay mas de una especia de ballenas
    @property
    def especie(self):
        return self._especie
 
    @especie.setter
-   def especie(self, nueva_especie):
-       self._epecie = nueva_especie
+   def especie(self, Value):
+       self._epecie = Value
 
    def nadar(self):
         print(f"{self._nombre} está nadando.")
