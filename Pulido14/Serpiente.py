@@ -46,4 +46,19 @@ class Serpiente:
    def especie(self, nueva_especie):
        self._epecie = nueva_especie
 
+   def cambiar_de_piel(self):
+        print(f"{self._nombre} está en el proceso de mudar la piel.")
+
+   def cazar(self):
+        print(f"{self._nombre} esta buscando presas para cazar.")
+
+   def siseos(self):
+        print(f"{self._nombre} está emitiendo siseos para comunicarse.")
+
+   def enroscarse(self):
+        print(f"{self._nombre} se esta enroscando para descansar o camuflarse.")
+
+   def tomar_sol(self):
+        print(f"{self._nombre} está tomando el sol para calentar el cuerpo.")
+
    
