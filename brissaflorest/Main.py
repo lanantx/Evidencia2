@@ -53,4 +53,7 @@ while True:
             altura = input("Ingresa el altura del mono: ")
             monomonuevo=mono(nombre,edad,tamaño,peso,altura)
             admin_mizoo.añadir_animales(mononuevo)
-            
+        
+    elif opcion == 2:
+        admin_mizoo.ver_animales()
+    
