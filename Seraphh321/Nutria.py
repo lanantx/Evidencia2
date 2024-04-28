@@ -35,7 +35,7 @@ class Nutria:
             self.__edad = valor
 
       @property
-      def peso(self)
+      def peso(self):
             return self.__peso
       @peso.setter
       def peso(self,valor):
