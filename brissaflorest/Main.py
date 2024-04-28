@@ -57,4 +57,3 @@ while True:
     elif opcion == 2:
         admin_mizoo.ver_animales()
     
-    

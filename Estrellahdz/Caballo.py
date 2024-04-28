@@ -45,6 +45,18 @@ class Caballo:
         @altura.setter
         def altura(self, value):
             self.__altura = altura
+    
+    def comer(self):
+        pass
+
+    def trotar(self):
+        pass
+
+    def relinchar(self):
+        pass
+
+    def dormir(self):
+        pass
 
     def __str__(self):
         return (f"Caballo: \n Nombre: {self.__nombre}\n Sexo: {self.__sexo}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Altura: {self.__altura}")
