@@ -46,5 +46,17 @@ class Cotorro:
         def altura(self, value):
             self.__altura = altura
 
+    def comer(self):
+        pass
+
+    def hablar(self):
+        pass
+
+    def volar(self):
+        pass
+
+    def dormir(self):
+        pass
+
     def __str__(self):
         return (f"Cotorro: \n Nombre: {self.nombre}\n Sexo: {self.__sexo}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Altura: {self.__altura}")
