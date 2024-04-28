@@ -20,3 +20,40 @@ class Nutria:
             
       def recinto(self): 
             print("esta en un recinto en el cual es relajante estar ademas de que se la pasa bien estando ahi")
+      @property
+      def nombre(self):
+            return self.__nombre
+      @nombre.setter
+      def nombre(self,valor):
+            self.__nombre = valor
+
+      @property 
+      def edad(self):
+           return self.__edad
+      @edad.setter
+      def edad(self,valor):
+            self.__edad = valor
+
+      @property
+      def peso(self)
+            return self.__peso
+      @peso.setter
+      def peso(self,valor):
+            self.__peso = valor
+
+      @property 
+      def sexo(self):
+            return self.__sexo
+      @sexo.setter
+      def sexo(self,valor):
+            self.__sexo = valor
+            
+      @property 
+      def tamaño(self):
+            return self.__tamaño
+      @tamaño.setter
+      def tamaño(self,valor):
+            self.__tamaño=valor
+            
+      def __str__(self):
+          return f"Gorilla:  1 Nombre: {self.__nombre} 2 Edad: {self.__edad} 3 Peso: {self.__peso} 4 Tamaño: {self.__tamaño} 5 Sexo: {self.__sexo}"
