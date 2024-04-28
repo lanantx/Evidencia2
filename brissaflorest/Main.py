@@ -12,5 +12,3 @@ class mi_zoologico:
     def ver_animales(self):
         for animales in self.mis_animales:
             print(animales)
-
-

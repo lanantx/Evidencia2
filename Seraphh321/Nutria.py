@@ -10,13 +10,13 @@ class Nutria:
             print("las nutrias son herbivoras")
       
       def horario(self):
-            print(f"{self.__nombre} se mantiene despiert@ y activ@ durante las mañanas y empieza a descansar en los atardeceres")
+            print(" se mantiene despiert@ y activ@ durante las mañanas y empieza a descansar en los atardeceres")
 
       def pasatiempos(self):
-            print(f"{self.__nombre} le gusta nadar en su habitad y disfruta de la compañia de los visitantes")
+            print(" le gusta nadar en su habitad y disfruta de la compañia de los visitantes")
 
       def informacion(self):
-            print(f"{self.__nombre} tiene garras que puede usar para agarre o defenderse")
+            print(" tiene garras que puede usar para agarre o defenderse")
             
       def recinto(self): 
             print("esta en un recinto en el cual es relajante estar ademas de que se la pasa bien estando ahi")
@@ -55,5 +55,4 @@ class Nutria:
       def tamaño(self,valor):
             self.__tamaño=valor
             
-      def __str__(self):
-          return f"Nutria:  1 Nombre: {self.__nombre} 2 Edad: {self.__edad} 3 Peso: {self.__peso} 4 Tamaño: {self.__tamaño} 5 Sexo: {self.__sexo}"
+     
