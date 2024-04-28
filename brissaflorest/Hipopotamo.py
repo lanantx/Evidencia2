@@ -45,3 +45,22 @@ class Hipopotamo:
     @altura.setter
     def altura(self,valor):
         self.__altura = valor
+    
+    def __str__(self):
+        return f"Hipopotamo | Nombre: {self.__nombre} | Edad: {self.__edad} | Tamaño: {self.__tamaño} | Peso: {self.__peso} | Altura: {self.__altura}."
+
+    def comer(self):
+        print("Los hipopotamos comen pasto corto. Pasan cinco o más horas de pastoreo cada noche.")
+
+    def aspecto(self):
+        print("Los hipopotamos tienen torsos redondos y cuerpos de color marrón rosáceo, con piel impermeable de cinco centímetros de grosor y patas cortas y robustas.")
+    
+    def velocidad(self):
+        print("Los hipopotamos pueden alcanzar velocidades de hasta 35 kilómetros por hora en tierra en distancias cortas.")
+
+    def correr(self):
+        print("Los hipopótamos no saben nadar ni respirar bajo el agua, en su lugar, caminan o corren por el fondo del cauce.")
+
+    def dormir(self):
+        print("Los hipopotamos suelen dormir la siesta en el agua durante el día.")
+
