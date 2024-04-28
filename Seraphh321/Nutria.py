@@ -56,4 +56,4 @@ class Nutria:
             self.__tamaño=valor
             
       def __str__(self):
-          return f"Gorilla:  1 Nombre: {self.__nombre} 2 Edad: {self.__edad} 3 Peso: {self.__peso} 4 Tamaño: {self.__tamaño} 5 Sexo: {self.__sexo}"
+          return f"Nutria:  1 Nombre: {self.__nombre} 2 Edad: {self.__edad} 3 Peso: {self.__peso} 4 Tamaño: {self.__tamaño} 5 Sexo: {self.__sexo}"
