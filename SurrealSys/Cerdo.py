@@ -17,10 +17,10 @@ class Cerdo:
     def hacer_sonido(self):
             return f"{self._nombre} dice: {self._sonido}"
     
-    def reproducirse(self): #Agregar mas cosas para que esto pueda realizarse
+    def reproducirse(self):
         return f"{self._nombre} esta reproduciendose con el sexo opuesto"
     
-    def defecar(self): # Agregar como requerimiento haber comido y que comio idk
+    def defecar(self): 
         return f"{self._nombre} esta defecando" 
 
 ## Getters & Setters (nombre,edad,sexo,peso,sonido)
@@ -65,7 +65,6 @@ class Cerdo:
 
     def set_sonido(self, nuevo_sonido):
         self._sonido = nuevo_sonido
-
 
     def __str__(self):
         return f"Nombre: {self._nombre}, Edad: {self._edad}, Sexo: {self._sexo}, Peso: {self._peso}kg, Sonido: {self._sonido}"
