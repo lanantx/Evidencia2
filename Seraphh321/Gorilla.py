@@ -1,61 +1,62 @@
-from Gorilla import gorilla
-from Jirafa import jirafa
-from Nutria import  Nutria
-
-class zoo:
-    def __init__(self):
-        self.animala=[]
-
-    def AñadirAnimal(self, animalN):
-        self.animala.append(animalN)
-
-    def verAnimales(self):
-        for animales in self.animala:
-            print(animales)
-
-
-adminzoo=zoo()
-
-while True:
-    opcion = int(input("1. Agregar animal  2. Ver los animales  3. Salir  "))
-    if opcion == 1:
-        animal = int(input("Animal por agregar:  1. Gorilla  2. Jirafa  3. Nutria " ))
-        if animal == 1:
-            nombre = input("Ingresa el nombre: ")
-            edad = input("Ingresa la edad: ")
-            peso = input("Ingresa el peso: ")
-            sexo = input("Ingresa el sexo: ")
-            tamaño = input("Ingresa el tamaño: ")
-            gorillaN=gorilla(nombre,edad,peso,sexo,tamaño)
-            adminzoo.AñadirAnimal(gorillaN)
-            print("Animal agregado exitosamente!")
-
-          
-        elif animal == 2:
-            nombre = input("Ingresa el nombre: ")
-            edad = input("Ingresa la edad: ")
-            peso = input("Ingresa el peso: ")
-            sexo = input("Ingresa el sexo: ")
-            tamaño = input("Ingresa el tamaño: ")
-            JirafaN=jirafa(nombre,edad,peso,sexo,tamaño)
-            adminzoo.AñadirAnimal(JirafaN)
-            print("Animal agregado exitosamente!")
-
-          
-        elif animal == 3:
-            nombre = input("Ingresa el nombre: ")
-            edad = input("Ingresa la edad: ")
-            peso = input("Ingresa el peso: ")
-            sexo = input("Ingresa el sexo: ")
-            tamaño = input("Ingresa el tamaño: ")
-            nutriaN=Nutria(nombre,edad,peso,sexo,tamaño)
-            adminzoo.AñadirAnimal(nutriaN)
-            print("Animal agregado exitosamente!")
-
+class gorilla:
+      def __init__(self, nombre, edad, peso, sexo, tamaño):
+          self.nombre = nombre
+          self.edad = edad
+          self.peso = peso
+          self.sexo = sexo
+          self.tamaño = tamaño
+            
+      def comida(self):
+            print(f"{self.__nombre}, puede comer hasta 30kg de plantas ya que es muy grande")
       
+      def horario(self):
+            print(f"{self.__nombre} se mantiene despierto y activo durante las mañanas y empieza a descansar en los atardeceres")
 
-    elif opcion == 2:
-        adminzoo.verAnimales()
+      def comportamiento(self):
+            print(f"{self.__nombre} no es agresivo, usalmente se mantiene sereno pero se llega a estresar cuando hay demasiada gente hablando")
 
-    elif opcion == 3:
-        break
+      def masa_muscular(self):
+            print(f"{self.__nombre} esta lleno de musculos por lo tanto tiene demasiada fuerza")
+            
+      def recinto(self): 
+            print("al tener tanta fuerza, su recinto es un poco... especial")
+
+
+
+      @property
+      def nombre(self):
+            return self.__nombre
+      @nombre.setter
+      def nombre(self,valor):
+            self.__nombre = valor
+
+      @property 
+      def edad(self):
+           return self.__edad
+      @edad.setter
+      def edad(self,valor):
+            self.__edad = valor
+
+      @property
+      def peso(self):
+            return self.__peso
+      @peso.setter
+      def peso(self,valor):
+            self.__peso = valor
+
+      @property 
+      def sexo(self):
+            return self.__sexo
+      @sexo.setter
+      def sexo(self,valor):
+            self.__sexo = valor
+            
+      @property 
+      def tamaño(self):
+            return self.__tamaño
+      @tamaño.setter
+      def tamaño(self,valor):
+            self.__tamaño=valor
+            
+      def __str__(self):
+          return f"Gorilla:  1 Nombre: {self.__nombre} 2 Edad: {self.__edad} 3 Peso: {self.__peso} 4 Tamaño: {self.__tamaño} 5 Sexo: {self.__sexo}"
