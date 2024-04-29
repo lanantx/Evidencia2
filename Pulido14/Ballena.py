@@ -45,3 +45,6 @@ class Ballena:
    @especie.setter
    def especie(self, Value):
        self._especie = Value
+
+   def __str__(self):
+        return f"Informacion de la Ballena: Nombre:{self.nombre}, Edad:{self.edad}, Longitud:{self.Longitud}, Peso:{self.peso}, Especie:{self.especie}."
