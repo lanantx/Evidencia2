@@ -14,8 +14,8 @@ while True:
     tipo_animal = input("¿Qué animal quieres agregar? (Ballena, Delfín o Serpiente): ")
     nombre = input("¿Cuál es su nombre? \n")
     edad = input("¿Cuál es su edad? \n")
-    sexo = input("¿Cuál es su sexo? \n")
-    tamaño = input("¿Cuál es su tamaño? \n")
+    sexo = input("¿Cuál es su especie? \n")
+    tamaño = input("¿Cuál es su longitud? \n")
     peso = input("¿Cuál es su peso? \n")
 
     if tipo_animal == "Ballena":
