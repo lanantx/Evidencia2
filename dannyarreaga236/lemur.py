@@ -57,9 +57,9 @@ class Lemur:
     def pareja(self, value):
         self.__pareja = value
     
-    # Metodos: comer, color, longitud_media, peso_medio, esperanza_vida, correr
+    # Metodos: comer, color, largo_medio, peso_medio, esperanza_vida
     def info_lemur(self):
-        # nombre, edad, sexo, peso, longitud, especie, pareja
+        # nombre, edad, sexo, peso, largo, pareja
         print(f"Nombre lemur: {self.__nombre}\nEdad{self.__edad}\nSexo: {self.__sexo}\nPeso: {self.__peso}\nLargo: {self.__largo}\nPareja: {self.__pareja}")
     
     def comer(self):
