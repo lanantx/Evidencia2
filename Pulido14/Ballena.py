@@ -6,6 +6,21 @@ class Ballena:
         self._peso = peso
         self._especie = especie
 
+   def nadar(self):
+        print(f"{self._nombre} está nadando.")
+
+   def alimentarse(self):
+        print(f"{self._nombre} está alimentándose de plancton.")
+
+   def emitir_sonido(self):
+        print(f"{self._nombre} está emitiendo sonidos de baja frecuencia.")
+
+   def socializar(self):
+        print(f"{self._nombre} está interactuando con otras ballenas.")
+
+   def dormir(self):
+        print(f"{self._nombre} está durmiendo en el océano.")
+
    @property
    def nombre(self):
        return self._nombre
@@ -47,4 +62,4 @@ class Ballena:
        self._especie = Value
 
    def __str__(self):
-        return f"Informacion de la Ballena: Nombre:{self.nombre}, Edad:{self.edad}, Longitud:{self.Longitud}, Peso:{self.peso}, Especie:{self.especie}."
+        return f"Informacion de la Ballena: Nombre:{self.nombre}, Edad:{self.edad}, Longitud:{self.longitud}, Peso:{self.peso}, Especie:{self.especie}."
