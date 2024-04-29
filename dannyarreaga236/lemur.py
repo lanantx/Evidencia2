@@ -56,3 +56,23 @@ class Lemur:
     @pareja.setter
     def pareja(self, value):
         self.__pareja = value
+    
+    # Metodos: comer, color, longitud_media, peso_medio, esperanza_vida, correr
+    def info_lemur(self):
+        # nombre, edad, sexo, peso, longitud, especie, pareja
+        print(f"Nombre lemur: {self.__nombre}\nEdad{self.__edad}\nSexo: {self.__sexo}\nPeso: {self.__peso}\nLargo: {self.__largo}\nPareja: {self.__pareja}")
+    
+    def comer(self):
+        print(f"Se alimentan de frutas y hojas, principalmente de tamarindo.")
+    
+    def color(self):
+        print("Son de color gris claro y una cola caracteristica de anillos negros y gris claro.")
+    
+    def largo_medio(self):
+        print("Miden entre 95 y 110 cm en promedio.")
+    
+    def peso_medio(self):
+        print("Los lemures tienen un peso promedio de 2.2 kg.")
+    
+    def esperanza_vida(self):
+        print("Los lemures tienen una esperanza de vida entre 16 a 19 años")
