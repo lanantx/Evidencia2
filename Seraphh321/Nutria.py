@@ -5,3 +5,4 @@ class Nutria:
           self.peso = peso
           self.sexo = sexo
           self.tamaño = tamaño
+          
