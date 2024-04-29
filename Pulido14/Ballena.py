@@ -37,14 +37,14 @@ class Ballena:
    @peso.setter
    def peso(self, Value):
        self._peso = Value
-#aqui uso nueva_especie por que hay mas de una especia de ballenas
+
    @property
    def especie(self):
        return self._especie
 
    @especie.setter
    def especie(self, Value):
-       self._epecie = Value
+       self._especie = Value
 
    def nadar(self):
         print(f"{self._nombre} está nadando.")
