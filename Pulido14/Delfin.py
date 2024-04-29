@@ -6,6 +6,24 @@ class Delfin:
         self._peso = peso
         self._especie = especie
 
+   def comer(self):
+        print(f"{self._nombre} está comiendo pescado fresco.")
+
+   def nadar(self):
+        print(f"{self._nombre} está nadando en el océano.")
+
+   def alimentarse(self):
+        print(f"{self._nombre} está alimentándose de peces pequeños.")
+
+   def emitir_sonido(self):
+        print(f"{self._nombre} está emitiendo sonidos de clics y silbidos.")
+
+   def socializar(self):
+        print(f"{self._nombre} está jugando con otros delfines.")
+
+   def dormir(self):
+        print(f"{self._nombre} está descansando en el agua.")
+
    @property
    def nombre(self):
        return self._nombre
@@ -47,4 +65,4 @@ class Delfin:
        self._especie = Value
 
    def __str__(self):
-        return f"Informacion de la Delfin: Nombre:{self.nombre}, Edad:{self.edad}, Longitud:{self.Longitud}, Peso:{self.peso}, Especie:{self.especie}."
+        return f"Informacion de la Delfin: Nombre:{self.nombre}, Edad:{self.edad}, Longitud:{self.longitud}, Peso:{self.peso}, Especie:{self.especie}."
