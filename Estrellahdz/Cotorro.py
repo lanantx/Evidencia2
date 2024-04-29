@@ -47,16 +47,16 @@ class Cotorro:
             self.__altura = altura
 
     def comer(self):
-        pass
+        print(f"El cotorro {self.__nombre} esta comiendo sus semillas de girasol.")
 
     def hablar(self):
-        pass
+        print(f"El cotorro {self.__nombre} habla con la gente.")
 
     def volar(self):
-        pass
+        print(f"El cotorro {self.__nombre} vuela entre los arboles.")
 
     def dormir(self):
-        pass
+        print(f"El cotorro {self.__nombre} duerme en su habitat.")
 
     def __str__(self):
         return (f"Cotorro: \n Nombre: {self.nombre}\n Sexo: {self.__sexo}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Altura: {self.__altura}")
