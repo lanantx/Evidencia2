@@ -44,7 +44,7 @@ class Delfin:
 
    @especie.setter
    def especie(self, Value):
-       self._epecie = Value
+       self._especie = Value
 
    def comer(self):
         print(f"{self._nombre} está comiendo pescado fresco.")
