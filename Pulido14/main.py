@@ -23,3 +23,4 @@ while True:
             nuevo_animal = Delfin(nombre, edad, especie, longitud, peso)
             animales.append(nuevo_animal)
     
+    
