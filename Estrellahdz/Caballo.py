@@ -47,16 +47,16 @@ class Caballo:
             self.__altura = altura
     
     def comer(self):
-        pass
+        print(f"El caballo {self.__nombre} esta comiendo su heno.")
 
     def trotar(self):
-        pass
+        print(f"El caballo {self.__nombre} trota en su habitat.")
 
     def relinchar(self):
-        pass
+        print(f"El caballo {self.__nombre} relincha mientras trota.")
 
     def dormir(self):
-        pass
+        print(f"El caballo {self.__nombre} duerme en su habitat.")
 
     def __str__(self):
         return (f"Caballo: \n Nombre: {self.__nombre}\n Sexo: {self.__sexo}\n Edad: {self.__edad}\n Peso: {self.__peso}\n Altura: {self.__altura}")
