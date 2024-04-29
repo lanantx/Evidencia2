@@ -50,10 +50,10 @@ class Aguila:
         print(f"El aguila {self.__nombre} esta comiendo sus alimentos.")
 
     def volar(self):
-        pass
+        print(f"El aguila {self.__nombre} vuela entre los arboles.")
 
     def posar(self):
-        pass
+        print(f"El aguila {self.__nombre} posa en el brazo del cuidador.")
 
     def dormir(self):
         print(f"El aguila {self.__nombre} duerme en su habitat.")
