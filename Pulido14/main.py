@@ -22,5 +22,9 @@ while True:
         elif opcion_animal == 3:
             nuevo_animal = Delfin(nombre, edad, especie, longitud, peso)
             animales.append(nuevo_animal)
-    
+    elif opcion == 2:
+        for animal in animales:
+            print(animal)
+    elif opcion == 3:
+        break
     
