@@ -56,3 +56,23 @@ class Oso:
     @pareja.setter
     def pareja(self, value):
         self.__pareja = value
+    
+    # Metodos: comer, color, altura_media, peso_medio, esperanza_vida
+    def info_oso(self):
+        # nombre, edad, sexo, peso, altura, pareja
+        print(f"Nombre oso: {self.__nombre}\nEdad{self.__edad}\nSexo: {self.__sexo}\nPeso: {self.__peso}\nAltura: {self.__altura}\nPareja: {self.__pareja}")
+    
+    def comer(self):
+        print(f"Comen cualquier cosa, desde hojas, raices, bayas y hasta insectos, carroña, carne fresca y pescado.")
+    
+    def color(self):
+        print("Suelen ser de color cafe marron.")
+    
+    def altura_media(self):
+        print("Miden entre 1 m y 2.8 m en promedio.")
+    
+    def peso_medio(self):
+        print("Pueden pesar entre 27 y 780 kg en promedio, pero pueden llegar a pesar hasta 1 tonelada.")
+    
+    def esperanza_vida(self):
+        print("Los osos tienen una esperanza de vida aproximadamente de 20 años")
