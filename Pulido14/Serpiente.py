@@ -44,7 +44,7 @@ class Serpiente:
 
    @especie.setter
    def especie(self, Value):
-       self._epecie = Value
+       self._especie = Value
 
    def cambiar_de_piel(self):
         print(f"{self._nombre} está en el proceso de mudar la piel.")
