@@ -55,3 +55,5 @@ while True:
         
         elif opcion == 2:
             adminzoo.verAnimales()
+        elif opcion == 4:
+            break
