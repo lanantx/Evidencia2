@@ -5,7 +5,7 @@ class Nutria:
           self.peso = peso
           self.sexo = sexo
           self.tamaño = tamaño
-            
+
       def comida(self):
             print("las nutrias son herbivoras")
       
@@ -56,3 +56,8 @@ class Nutria:
             self.__tamaño=valor
             
      
+
+
+
+
+      

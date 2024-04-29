@@ -25,7 +25,7 @@ while True:
         print("1. Hipopotamo")
         print("2. Koala")
         print("3. Mono")
-        animal = int(input("¿Que animal deseas agregar?: ")
+        animal = int(input("¿Que animal deseas agregar?: "))
 
         if animal == 1:
             nombre = input("Ingresa el nombre del hipopotamo: ")
@@ -33,7 +33,7 @@ while True:
             tamaño = input("Ingresa el tamaño del hipopotamo: ")
             peso = input("Ingresa el peso del hipopotamo: ")
             altura = input("Ingresa el altura del hipopotamo: ")
-            hipopotamonuevo=hipopotamo(nombre,edad,tamaño,peso,altura)
+            hipopotamonuevo=Hipopotamo(nombre,edad,tamaño,peso,altura)
             admin_mizoo.añadir_animales(hipopotamonuevo)
 
         elif animal == 2:
@@ -42,7 +42,7 @@ while True:
             tamaño = input("Ingresa el tamaño del koala: ")
             peso = input("Ingresa el peso del koala: ")
             altura = input("Ingresa el altura del koala: ")
-            koalanuevo=koala(nombre,edad,tamaño,peso,altura)
+            koalanuevo=Koala(nombre,edad,tamaño,peso,altura)
             admin_mizoo.añadir_animales(koalanuevo)
 
         elif animal == 3:
@@ -51,6 +51,11 @@ while True:
             tamaño = input("Ingresa el tamaño del mono: ")
             peso = input("Ingresa el peso del mono: ")
             altura = input("Ingresa el altura del mono: ")
-            monomonuevo=mono(nombre,edad,tamaño,peso,altura)
+            mononuevo=Mono(nombre,edad,tamaño,peso,altura)
             admin_mizoo.añadir_animales(mononuevo)
-            
+        
+    elif opcion == 2:
+        admin_mizoo.ver_animales()
+    
+    elif opcion == 3:
+        break

@@ -5,7 +5,6 @@ class gorilla:
           self.peso = peso
           self.sexo = sexo
           self.tamaño = tamaño
-            
       def comida(self):
             print(" puede comer hasta 30kg de plantas ya que es muy grande")
       
@@ -20,9 +19,7 @@ class gorilla:
             
       def recinto(self): 
             print("al tener tanta fuerza, su recinto es un poco... especial")
-
-
-
+            
       @property
       def nombre(self):
             return self.__nombre
@@ -58,3 +55,7 @@ class gorilla:
       def tamaño(self,valor):
             self.__tamaño=valor
             
+
+
+            
+      

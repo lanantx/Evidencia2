@@ -20,8 +20,7 @@ class jirafa:
             
     def comportamiento(self): 
             print("su comportamiento es sereno y generalmente solo come")
-           
-     
+            
     @property
     def nombre(self):
         return self.__nombre
@@ -56,5 +55,3 @@ class jirafa:
     @tamaño.setter
     def tamaño(self,valor):
             self.__tamaño=valor
-
-
