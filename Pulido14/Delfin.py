@@ -1,4 +1,4 @@
-class Ballena:
+class Delfin:
    def __init__(self, nombre, edad, longitud, peso, especie):
         self._nombre = nombre
         self._edad = edad
